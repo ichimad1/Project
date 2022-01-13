@@ -1,0 +1,4 @@
+import pandas as pd
+link = "D:\One Drive Hino\OneDrive - Hino Motors VietNam\5_STUDY PROJECT\1_Datacamp Course\20220113_Working with categorical data"
+dogs = pd.read_csv(link)
+dogs.info()
